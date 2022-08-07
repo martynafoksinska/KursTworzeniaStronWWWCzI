@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #333;
+	font-size: 36px;
+	color: #fff;
+}
+
+.bg {
+	width: 100vw;
+	height: 100vh;
+	background-color: #ddd;
+	transition: 2s;
+}
+
+.square {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	border: 3px solid black;
+	top: 50px;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+
+.red {
+	background-color: tomato;
+	left: 60%;
+}
+
+.blue {
+	background-color: royalblue;
+	left: 20%;
+}
+
+.green {
+	background-color: greenyellow;
+	left: 40%;
+}
+
+.gold {
+	background-color: gold;
+	left: 80%;
+}
+
+.blue:hover ~ .bg {
+	background-color: royalblue;
+}
+
+.green:hover ~ .bg {
+	background-color: greenyellow;
+}
+
+.gold:hover ~ .bg {
+	background-color: gold;
+}
+
+.red:hover ~ .bg {
+	background-color: tomato;
+}
