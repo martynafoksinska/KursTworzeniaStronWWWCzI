@@ -1,0 +1,17 @@
+$width: 200px;
+$height: 200px;
+$bg-color: rgb(6, 4, 4);
+$second-bg-color: rgb(76, 31, 191);
+ 
+div {
+    width: $width;
+    height: $height;
+}
+ 
+.one {
+    background-color: $bg-color;
+}
+ 
+.two {
+    background-color: $second-bg-color;
+}
