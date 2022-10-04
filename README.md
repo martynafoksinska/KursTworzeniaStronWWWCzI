@@ -1,3 +1,4 @@
-# Kurs_Tworzenia_Stron
+# KursTworzeniaStronWWWCzI
 
-Zadania z kursu [2022] Kurs Tworzenia Stron WWW cz. I - HTML, CSS, RWD, Mateusz Maj.
+Projekty i ćwiczenia z kursu "Kurs Tworzenia Stron WWW cz. 1".
+Kurs dostępny na www.MMCSchool.pl 
